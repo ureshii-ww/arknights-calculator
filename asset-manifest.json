@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/arknights-calculator/static/css/main.66a77e33.chunk.css",
+    "main.js": "/arknights-calculator/static/js/main.89fb6753.chunk.js",
+    "main.js.map": "/arknights-calculator/static/js/main.89fb6753.chunk.js.map",
+    "runtime-main.js": "/arknights-calculator/static/js/runtime-main.5a7751a1.js",
+    "runtime-main.js.map": "/arknights-calculator/static/js/runtime-main.5a7751a1.js.map",
+    "static/js/2.155423a3.chunk.js": "/arknights-calculator/static/js/2.155423a3.chunk.js",
+    "static/js/2.155423a3.chunk.js.map": "/arknights-calculator/static/js/2.155423a3.chunk.js.map",
+    "index.html": "/arknights-calculator/index.html",
+    "static/css/main.66a77e33.chunk.css.map": "/arknights-calculator/static/css/main.66a77e33.chunk.css.map",
+    "static/js/2.155423a3.chunk.js.LICENSE.txt": "/arknights-calculator/static/js/2.155423a3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a7751a1.js",
+    "static/js/2.155423a3.chunk.js",
+    "static/css/main.66a77e33.chunk.css",
+    "static/js/main.89fb6753.chunk.js"
+  ]
+}
