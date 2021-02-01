@@ -2,10 +2,10 @@ import React, {useEffect, useRef} from 'react';
 import './heroCard.css';
 
 const HeroCard = (props) => {
-	const scrollRef = useRef(null);
+	/*const scrollRef = useRef(null);
 	const executeScroll = () => scrollRef.current.scrollIntoView();
 
-	useEffect(executeScroll, [])
+	useEffect(executeScroll, [])*/
 
 	const handleAdd = (obj, key) => {
 		if(props.hero.isChecked[key] === true)
