@@ -1,0 +1,26 @@
+.table-column {
+	min-width: 100px;
+	display: flex;
+	flex-flow: column;
+}
+
+.table-column:nth-child(1) {
+	border-left: none;
+}
+
+.table-column_title {
+	font-family: 'Roboto Condensed', sans-serif;
+	height: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.6);
+	color: black;
+}
+
+@media all and (max-width: 414px) {
+	.table_content > .table-column{
+		min-width: 50px !important;
+	}
+}

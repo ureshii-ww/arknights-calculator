@@ -1,0 +1,26 @@
+.cards-interface {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 910px;
+	margin-bottom: 20px;
+}
+
+.card-dummy {
+	width: 445px;
+	height: 280px;
+	margin: 5px;
+	background-color: var(--hover-01ev);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--text-color-minor);
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 48px;
+}
+
+@media (max-width: 970px) {
+	.card-dummy {
+		display: none;
+	}
+}

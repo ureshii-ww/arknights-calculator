@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.hero-list {
+	display: grid;
+	grid-template-rows: 50px auto;
+	grid-template-columns: auto 40px;
+	grid-template-areas:
+			"list-header list-close"
+			"list-content list-content";
+	width: 100%;
+	margin: 5px;
+	background-color: var(--hover-01ev);
+}
+
+.hero-list_content {
+	display: flex;
+	align-items: center;
+	grid-area: list-content;
+}
+
+.hero-list_list {
+	display: flex;;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.hero-list_header {
+	grid-area: list-header;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: var(--text-color-title);
+	font-size: 30px;
+	font-weight: 500;
+	padding-left: 15px;
+	padding-top: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.hero-list_item {
+	margin: 5px 5px;
+	height: 100px;
+	width: 75px;
+	font-size: 14px;
+	color: black;
+	display: grid;
+	grid-template-rows: 75px 25px;
+	cursor: pointer;
+}
+
+.hero-list_item img {
+	width: 75px;
+	height: 75px;
+}
+
+.hero-list_name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.6);
+	font-family: 'Roboto', sans-serif;
+}
+
+.hero-list_close {
+	grid-area: list-close;
+	display: flex;
+	justify-content: flex-end;
+	cursor: pointer;
+	color: var(--text-color-title);
+}
+
+.hero_6star {
+	background-color: var(--hero-tier1-color);
+}
+
+.hero_5star {
+	background-color: var(--hero-tier2-color);
+}
+
+.hero_4star {
+	background-color: var(--hero-tier3-color);
+}
+
+.flamebringer_font {
+	font-size: 12px;
+}
+
+@media all and (max-width: 414px){
+	.hero-list {
+		margin: 5px 0;
+	}
+}
+
+

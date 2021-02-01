@@ -1,13 +1,94 @@
+:root {
+  --color-00ev: #121212;
+  --color-01ev: #1e1e1e;
+  --color-02ev: #232323;
+  --color-03ev: #252525;
+  --color-04ev: #272727;
+  --color-06ev: #2c2c2c;
+  --color-08ev: #2f2f2f;
+  --color-12ev: #333333;
+  --color-16ev: #353535;
+  --color-24ev: #383838;
+
+  --hover-00ev: #1b1b1b;
+  --hover-01ev: #272727;
+  --hover-02ev: #2c2c2c;
+  --hover-03ev: #2e2e2e;
+  --hover-04ev: #2f2f2f;
+  --hover-06ev: #343434;
+  --hover-08ev: #373737;
+  --hover-12ev: #3b3b3b;
+  --hover-16ev: #3d3d3d;
+  --hover-24ev: #404040;
+
+  --text-color-title: rgba(255, 255, 255, 0.87);
+  --text-color-gray: rgba(255, 255, 255, 0.69);
+  --text-color-minor: rgba(255, 255, 255, 0.38);
+
+  --mat-tier1-color: #ffad33;
+  --mat-tier1-color-dim: #ffbd5c;
+  --mat-tier2-color: #c299ff;
+  --mat-tier2-color-dim: #ceadff;
+  --mat-tier3-color: #87acf2;
+  --mat-tier3-color-dim: #9fbdf5;
+  --mat-tier4-color: #b9f159;
+  --mat-tier4-color-dim: #c7f47a;
+  --mat-tier5-color: #a5a5a5;
+  --mat-tier5-color-dim: #b7b7b7;
+
+  --edge-tier1-color: #ff9900;
+  --edge-tier1-color-dim: #ffad33;
+  --edge-tier2-color: #b380ff;
+  --edge-tier2-color-dim: #c299ff;
+  --edge-tier3-color: #6997ef;
+  --edge-tier3-color-dim: #87acf2;
+  --edge-tier4-color: #a8ee30;
+  --edge-tier4-color-dim: #b9f159;
+  --edge-tier5-color: #8f8f8f;
+  --edge-tier5-color-dim: #a5a5a5;
+
+  --hero-tier1-color: #ff6f00;
+  --hero-tier2-color: #ffae00;
+  --hero-tier3-color: #b380ff;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: var(--color-00ev);
+  color: white;
+}
+
+p, ul, h1 {
+  margin: 0;
+  padding: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+::-webkit-scrollbar {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  width: 12px;
+  background-color: #333437;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 12px;
 }

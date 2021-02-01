@@ -1,0 +1,191 @@
+.hero-card {
+	background-color: var(--hover-01ev);
+	margin: 5px;
+	display: grid;
+	grid-template-rows: 50px auto;
+	grid-template-columns: auto 40px;
+	grid-template-areas:
+			"name cross"
+			"card-content card-content";
+}
+
+.hero-card_name {
+	grid-area: name;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: var(--text-color-title);
+	font-size: 30px;
+	font-weight: 500;
+	padding-left: 15px;
+	padding-top: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.hero-card_cross {
+	grid-area: cross;
+	display: flex;
+	justify-content: flex-end;
+	color: var(--text-color-title);
+}
+
+.hero-card_cross svg{
+	cursor: pointer;
+}
+
+.hero-card_content {
+	grid-area: card-content;
+}
+
+.hero-card_controls {
+	display: grid;
+	grid-template-rows: 160px 70px;
+	grid-template-columns: 80px 160px 205px;
+	grid-template-areas:
+			"elite portrait upgrade"
+			"skills skills skills";
+}
+
+.hero-card_portrait {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-card_portrait img {
+	grid-area: portrait;
+	border: 5px solid rgba(255, 255, 255, 0.8);
+}
+
+.hero-card_elite {
+	grid-area: elite;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.hero-button_elite {
+	width: 60px;
+	height: 60px;
+}
+
+.hero-card_skills {
+	grid-area: skills;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	padding-top: 10px;
+}
+
+.hero-card_common-skills {
+	display: flex;
+	justify-content: space-around;
+}
+
+.hero-button_skills {
+	width: 50px;
+	height: 50px;
+}
+
+.hero-card_specific-skills {
+	grid-area: upgrade;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: var(--text-color-title);
+}
+
+.hero-card_m {
+	display: flex;
+}
+
+.hero-card_m p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	margin-right: 10px;
+}
+
+.hero-card_m-icons {
+	display: flex;
+	justify-content: center;
+}
+
+.hero-button_m-icons {
+	width: 40px;
+	height: 40px;
+}
+
+.hero-button {
+	cursor: pointer;
+	user-select: none;
+	opacity: 60%;
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.checked {
+	opacity: 100%;
+}
+
+@media all and (max-width: 414px){
+	.hero-card_controls {
+		grid-template-rows: 160px auto 70px;
+		grid-template-columns: 80px 294px;
+		grid-template-areas:
+			"elite portrait"
+			"upgrade upgrade"
+			"skills skills";
+	}
+
+	.hero-card {
+		margin: 5px 0;
+	}
+
+	.hero-card_specific-skills {
+		margin-top: 10px;
+	}
+
+	.hero-card_m {
+		width: 100%;
+		justify-content: space-around;
+		margin-bottom: 10px;
+	}
+
+	.hero-card_m-icons {
+		width: 55%;
+		justify-content: space-between;
+	}
+
+	.hero-card_skills {
+		margin-bottom: 10px;
+	}
+}
+
+@media all and (max-width: 411px){
+	.hero-card_controls {
+		grid-template-columns: 80px 291px;
+	}
+}
+
+@media all and (max-width: 375px){
+	.hero-card_controls {
+		grid-template-columns: 80px 255px;
+	}
+}
+
+@media all and (max-width: 360px) {
+	.hero-card_controls {
+		grid-template-columns: 80px 240px;
+	}
+}
+@media all and (max-width: 320px) {
+	.hero-card_controls {
+		grid-template-columns: 80px 200px;
+	}
+}
