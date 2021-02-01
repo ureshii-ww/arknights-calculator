@@ -130,7 +130,7 @@
 }
 
 .checked {
-	opacity: 100%;
+	opacity: 1;
 }
 
 @media all and (max-width: 414px){
