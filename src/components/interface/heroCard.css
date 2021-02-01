@@ -124,7 +124,7 @@
 .hero-button {
 	cursor: pointer;
 	user-select: none;
-	opacity: 60%;
+	opacity: 0.6;
 	touch-action: manipulation;
 	-webkit-tap-highlight-color: transparent;
 }
