@@ -97,7 +97,7 @@ export default class CalculatorApp extends React.Component {
 				<Header />
 				<main className="content-container">
 					<Switch>
-						<Route path="/calculator/">
+						<Route path="/arknights-calculator/">
 							<div className="content-block">
 								<Interface heroes={this.state.heroes}
 										   chosen={this.state.chosen}
