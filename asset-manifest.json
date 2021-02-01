@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/arknights-calculator/static/css/main.ad0bcd0d.chunk.css",
-    "main.js": "/arknights-calculator/static/js/main.5a30ee21.chunk.js",
-    "main.js.map": "/arknights-calculator/static/js/main.5a30ee21.chunk.js.map",
+    "main.js": "/arknights-calculator/static/js/main.f2e82e8e.chunk.js",
+    "main.js.map": "/arknights-calculator/static/js/main.f2e82e8e.chunk.js.map",
     "runtime-main.js": "/arknights-calculator/static/js/runtime-main.5a7751a1.js",
     "runtime-main.js.map": "/arknights-calculator/static/js/runtime-main.5a7751a1.js.map",
     "static/js/2.155423a3.chunk.js": "/arknights-calculator/static/js/2.155423a3.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.5a7751a1.js",
     "static/js/2.155423a3.chunk.js",
     "static/css/main.ad0bcd0d.chunk.css",
-    "static/js/main.5a30ee21.chunk.js"
+    "static/js/main.f2e82e8e.chunk.js"
   ]
 }
